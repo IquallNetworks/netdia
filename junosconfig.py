@@ -141,7 +141,5 @@ if __name__ == '__main__' :
     print conf.search_jerarquia(['interfaces','fe-1/0/0','unit 1']) 
     print '***********'
 
-    print 'buscamos culo'
-    print conf.search_jerarquia(['culo']) 
-    print '***********'
+    
     
