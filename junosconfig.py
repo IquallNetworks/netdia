@@ -121,7 +121,6 @@ if __name__ == '__main__' :
     conf2 = JuniperConf()
     j = conf2.add_jerarquia('interfaces')
     j2 = conf2.get_jerarquia (['protocols','ospf','area 0','interfaces', 'ge-0/0/0'])
-    j2.add_statement('culo feo')
     print conf2
 
 
